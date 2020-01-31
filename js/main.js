@@ -4,7 +4,7 @@ goUp.addEventListener('click',()=>{
     if(html.scrollTop>0)
     {
          let up = setInterval(()=>{
-            html.scrollTop -=20 ;
+            html.scrollTop -=30 ;
             console.log(html.scrollTop);
             if(html.scrollTop==0)
             {
